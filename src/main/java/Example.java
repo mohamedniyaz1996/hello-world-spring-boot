@@ -11,8 +11,6 @@ public class Example {
     String home() {
         return "Hello World - v2!";
     }
-    
-    @RequestMapping("/")
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
