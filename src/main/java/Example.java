@@ -9,8 +9,10 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World - v1!";
+        return "Hello World - v2!";
     }
+    
+    @RequestMapping("/")
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
